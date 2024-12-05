@@ -87,8 +87,9 @@ public class Proj4 {
             deleteTime = System.nanoTime() - start;
 
             // log results
+            System.out.printf("Number of Lines: %d\n", numLines);
             System.out.printf("Order: %s\nInsert Time: %d ns\nSearch Time: %d ns\nDelete Time: %d ns\n",
-                    order, insertTime, searchTime, deleteTime);
+                   order, insertTime, searchTime, deleteTime);
 
             // write to txt
             File analysis = new File("analysis.txt");
