@@ -1,3 +1,10 @@
+/**********************************************************************
+ * @file: SeparateChainingHashTable.java
+ * @description: Implementation of a hash table using separate chaining for collision handling.
+ * @author: Kate Choi
+ * @date: 4 December 2024
+ **********************************************************************/
+
 import java.util.LinkedList;
 import java.util.List;
 

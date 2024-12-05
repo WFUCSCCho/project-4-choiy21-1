@@ -1,3 +1,10 @@
+/**********************************************************************
+ * @file: Proj4.java
+ * @description: Main driver program for reading datasets, timing hash table operations, and outputting results.
+ * @author: Kate Choi
+ * @date: 4 December 2024
+ **********************************************************************/
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
