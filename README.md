@@ -81,23 +81,33 @@ each case. Take a screenshot of your graph and put them here by modifying this f
 it to this repository.
 
 Insertion, search, and deletion running time (already sorted):
-
-![Firefly picture of a cat 86147](https://github.com/user-attachments/assets/8b2d008e-3011-4979-97b8-fa2e9886a01a)
-
+![running_times_sorted](https://github.com/user-attachments/assets/dfa0183f-0b9f-4c8a-a065-0b6c9f27f6d1)
 
 Insertion, search, and deletion running time (shuffled):
+![running_times_shuffled](https://github.com/user-attachments/assets/c608e73d-9e87-44ad-8600-6a820c3b5225)
 
 Insertion, search, and deletion running time (reversed):
+![running_times_reversed](https://github.com/user-attachments/assets/51a72b7f-81b5-4c55-abf9-c9842b94966a)
 
 ## 5. **Document your Dataset and Results**
 Document the source of your dataset and any modifications you made to it. Describe the results of your analysis and 
 how it compares to the theoretical performance of the hash table operations.
 
-Dataset Source: // FINISH ME
+Dataset Source: https://www.kaggle.com/datasets/rtatman/chocolate-bar-ratings
 
-Dataset Modifications ("None" if unchanged): // FINISH ME
+Dataset Modifications ("None" if unchanged): Removed categories "BeanType" and "Broad BeanOrigin" for easier reading.
 
-Result Analysis: // FINISH ME
+Result Analysis: This project analyzed the performance of hash table operations (insertion, search, and deletion) using a dataset of chocolate reviews, comparing the "rating" tag. The dataset was tested under three different orders: sorted, shuffled, and reversed. The results are summarized as follows:
+
+1. Insertion
+- Sorted: Insertion times were relatively erratic, likely due to collisions or uneven distribution caused by sorted keys. This aligns with the theoretical expectation that hash table performance can degrade if keys are not well-distributed.
+- Shuffled: Insertion times were smoother, reflecting a more uniform key distribution. This matches the predicted O(1) average-case performance for well-distributed keys.
+- Revrsed: Similar to the sorted dataset, insertion times showed occasional spikes, likely due to clustering of keys.
+2. Search & Deletion
+- Across all dataset orders, search and deletion times remained relatively consistent and predictable. This confirms the O(1) average-case complexity of these operations, as hash tables excel at lookups and deletions with a good hash function.
+3. Overall Trends
+- The performance trends indicate that the hash table implementation performs as expected, with dataset order affecting insertion times more significantly than search or deletion times.
+- Rehashing or collision handling may have influenced the spikes in insertion times for sorted and reversed datasets, which is a known limitation of hash tables when faced with non-uniform key distributions.
 
 ## Submission:
 

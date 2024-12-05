@@ -1,3 +1,10 @@
+/**********************************************************************
+ * @file: TestSeparateChainingHashTable.java
+ * @description: Test suite for the SeparateChainingHashTable class.
+ * @author: Kate Choi
+ * @date: 4 December 2024
+ **********************************************************************/
+
 public class TestSeparateChainingHashTable {
     public static void main( String [ ] args ) {
         SeparateChainingHashTable<Integer> H = new SeparateChainingHashTable<>( );
