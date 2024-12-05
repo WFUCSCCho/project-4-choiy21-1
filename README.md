@@ -81,13 +81,13 @@ each case. Take a screenshot of your graph and put them here by modifying this f
 it to this repository.
 
 Insertion, search, and deletion running time (already sorted):
-
-![Firefly picture of a cat 86147](https://github.com/user-attachments/assets/8b2d008e-3011-4979-97b8-fa2e9886a01a)
-
+![running_times_sorted](https://github.com/user-attachments/assets/dfa0183f-0b9f-4c8a-a065-0b6c9f27f6d1)
 
 Insertion, search, and deletion running time (shuffled):
+![running_times_shuffled](https://github.com/user-attachments/assets/c608e73d-9e87-44ad-8600-6a820c3b5225)
 
 Insertion, search, and deletion running time (reversed):
+![running_times_reversed](https://github.com/user-attachments/assets/51a72b7f-81b5-4c55-abf9-c9842b94966a)
 
 ## 5. **Document your Dataset and Results**
 Document the source of your dataset and any modifications you made to it. Describe the results of your analysis and 
